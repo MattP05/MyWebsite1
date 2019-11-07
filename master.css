@@ -1,0 +1,53 @@
+@import url:('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
+img {
+  width: 100%;
+}
+h1{
+color: grey;
+}
+h3{
+  text-decoration-color:red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a:hover {
+  float: left;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #000;
+  color: white;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-areas:
+  "header header"
+  "aside main"
+  "footer footer";
+   background-color:blue;
+}
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+p {
+  font-family: "arial verdana" sans-serif;
+V
+}
